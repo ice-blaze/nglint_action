@@ -1,0 +1,12 @@
+name: Angular Lint Action
+description: Automatically runs ng lint on all your changes.
+
+author: Ice-Blaze
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'award'
+  color: 'green'
