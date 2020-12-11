@@ -3,6 +3,7 @@
 # x would be for showing the commands before they are executed
 set -eu
 
-echo "run prettier"
+echo "instal nrwl linter"
 npm i @nrwl/linter
+echo "run ng lint"
 ng lint
